@@ -1,0 +1,6 @@
+#route dynamically
+#static generation
+#server Side Rendering
+#next authentication
+#next redux  
+#swr

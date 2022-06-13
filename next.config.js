@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
 
-module.exports = nextConfig
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ["fakestoreapi.com"],
+  },
+  env: {
+    MONGODB_URI: "mongodb://localhost:27017/ecom",
+  },
+};
